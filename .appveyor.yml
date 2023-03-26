@@ -1,6 +1,6 @@
-image: Ubuntu1804  # образ для сборки
-
-stack: node 16  # окружение
+image: Visual Studio 2019  # образ для сборки
+version: '1.0.{build}'
+stack: node v18.14.1  # окружение
 
 branches:
   only:
