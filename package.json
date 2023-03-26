@@ -12,7 +12,7 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "bbl": "babel src -d dist"
+    "bbl": "babel . -d oldBrawsers"
   },
   "author": "coursar",
   "license": "MIT",
