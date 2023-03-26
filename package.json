@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode development",
     "lint": "eslint .",
     "test": "jest",
     "coverage": "jest --coverage",
@@ -12,7 +12,7 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "bbl": "babel dist -d oldBrawsers"
+    "babels": "babel dist -d src/old_brawsers"
   },
   "author": "coursar",
   "license": "MIT",
