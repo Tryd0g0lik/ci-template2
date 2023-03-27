@@ -26,3 +26,11 @@ export function cortedHeroes(h) {
     console.log(e.message);
   }
 }
+/* Файл - .appveyor.yml и 'babels' из 'package.json'.
+* В строку 'test_script' вставляем елемент 'babels'.
+* `test_script:
+*   - npm run lint && npm test && npm run babels`
+* Сервер `ci.appveyor.com` выдает ошибку о неизвестной команде.
+* Но в консоле 'npm run babels' выполняется. Результат/пример 'old_brawsers'
+* Где скрыта ошибка или в чем особенность в реализации babel на `ci.appveyor.com`
+*/
