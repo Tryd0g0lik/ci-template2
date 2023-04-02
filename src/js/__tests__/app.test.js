@@ -10,6 +10,6 @@ describe('the La Croix cans on my desk', () => {
   ]);
 
   heroList('have all the same properties name ', (b, expected) => {
-    expect(b).toEqual(expected);
+		expect(b).toEqual(expected);
   });
 });
